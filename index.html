@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> CSE 199 Virtual Pet</title>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="petscripts.js">
+</script>
+
+</head>
+<body>
+<!-- Latest compiled and minified JavaScript -->
+
+<div class="header">
+  <h1>CSE 199: Adopt a Virtual Pet</h1>
+  <h4>Since the residence halls at UB won't allow pets, today you're going to take care of your very own virtual pet! Edit the given .js file to edit the scripts on this page to program your pet! See the documentation for instructions.</h4>
+</h4>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+<!--Part One: Variables-->
+<div class="panel panel-primary">
+<div class="panel-title"> <h3>About Your Pet</h3> </div>
+<div class="panel-body">
+<table >
+  <tr>
+  <th>Name: </th>
+  <td id="petname"></td>
+  </tr>
+  <tr>
+  <th>Species:  </th>
+  <td id="species"></td>
+</tr>
+<tr>
+<th>Age:  </th>
+<td id="age"></td>
+</tr>
+</table>
+</div>
+</div>
+
+<!--Part Two: Operations & Functions-->
+<div class="panel panel-primary">
+<div class="panel-title"> <h3>Take Care of Your Pet</h3> </div>
+<div class="panel-body">
+<button class="btn btn-default" role="button" id="feedme">Feed Me!</button><br/><br/>
+<table>
+<tr>
+<th>HP: </th>
+<td id="hp">0</td>
+</tr>
+<tr>
+<th>AP: 0</th>
+<td id="ap">0</td>
+</tr>
+</table>
+</div>
+</div>
+
+<!--Part Three: Control Flow...no HTML here! Look up how to create an alert-->
+
+<!--Part Four and Five: Arrays... Print your arrays to console. Find your console on your browser.-->
+
+<!--Part Six: Loops-->
+<div class="panel panel-primary">
+<div class="panel-title"> <h3>Pet Statistics</h3> </div>
+<div class="panel-body">
+<h4>My Pet's Tricks & Skills:</h4>
+<p id="stats"></p>
+</div>
+</div>
+
+<!--Part Seven: BONUS Loops-->
+<div class="panel panel-primary">
+<div class="panel-title"> <h3>Arena</h3> </div>
+<div class="panel-body" id = "area">
+<table style="">
+  <tr>
+    <td><img style="margin: auto; display: block; width:75%; height:75%; object-fit:contain;" src="http://www.facequizz.com/image/0_Pikachu.jpg" /></td>
+    <td><img id="opponent" style="margin: auto; display: block; width:75%; height:75%; object-fit:contain;" src="#"/></td>
+  </tr>
+</table>
+  <button id="bat" class="btn btn-default" role="button" style="margin: auto; display:block;">BATTLE!</button>
+<h5 id="winner">The winner is...</h5>
+<button class="btn btn-default" role="button" style="margin: auto; display:block;" id="reset">New Battle</button>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<!--Optional: Change this image to a picture of the pet you want.-->
+<img src="http://www.facequizz.com/image/0_Pikachu.jpg" />
+</div>
+
+
+</div>
+</div>
+
+
+
+</html>
